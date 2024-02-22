@@ -14,6 +14,7 @@ echo ''. $experience .'';
 $level = (isset($_GET['positionLevel'])) ? $_GET['positionLevel'] :'';
 echo ''. $level .'';
 
+
 // $users = get_users_by_level($positionLevel);
 $users = get_selected_users("mid", "3", ["C#"]);
 include_once(ABS_PATH . '/views/head.view.php');

@@ -1,0 +1,19 @@
+
+<style>
+    body {
+        background-color: rgb(191,214,255) 
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 90vh;
+    }
+    .panel{
+        background: rgb(255,148,148);
+        height: 10rem;
+        width:30%;
+    }
+</style>
+
